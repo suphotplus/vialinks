@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Links</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  overflow:hidden;
+}
+
+/* Fundo */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:url("https://pbs.twimg.com/media/G2biRhNWcAAnFR_?format=jpg&name=medium") center/cover no-repeat;
+  filter:blur(16px) brightness(0.35);
+  transform:scale(1.1);
+  z-index:-1;
+}
+
+/* Card */
+.card{
+  width:90%;
+  max-width:420px;
+  padding:28px;
+  border-radius:20px;
+
+  background: rgba(20,20,20,0.55);
+  backdrop-filter: blur(20px);
+  border:1px solid rgba(255,255,255,0.15);
+
+  text-align:center;
+  box-shadow:0 0 40px rgba(0,0,0,0.6);
+}
+
+/* Logo */
+.logo{
+  width:70px;
+  margin-bottom:10px;
+  opacity:.9;
+}
+
+/* Título */
+h1{
+  font-size:26px;
+  margin-bottom:6px;
+}
+
+.subtitle{
+  color:#bbb;
+  font-size:14px;
+  margin-bottom:22px;
+}
+
+/* Botões */
+.btn{
+  display:block;
+  text-decoration:none;
+  padding:16px;
+  border-radius:14px;
+  margin:12px 0;
+  font-weight:bold;
+  transition:.25s;
+}
+
+/* OnlyFans */
+.primary{
+  background: linear-gradient(90deg,#2ea4ff,#1b6cff);
+  color:white;
+}
+
+.primary:hover{
+  transform:translateY(-2px);
+}
+
+/* Fansly */
+.secondary{
+  background: rgba(255,255,255,0.08);
+  border:1px solid rgba(255,255,255,0.2);
+  color:white;
+}
+
+.secondary:hover{
+  background: rgba(255,255,255,0.18);
+}
+
+/* Ícones sociais */
+.socials{
+  margin-top:22px;
+  display:flex;
+  justify-content:center;
+  gap:14px;
+}
+
+.socials a{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background: rgba(255,255,255,0.08);
+  border:1px solid rgba(255,255,255,0.15);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  transition:.25s;
+}
+
+.socials a:hover{
+  background: rgba(255,255,255,0.2);
+  transform:scale(1.08);
+}
+
+.socials img{
+  width:20px;
+  opacity:.9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- Logo Throne -->
+  <img class="logo"
+  src="https://cdn-icons-png.freepik.com/512/91/91181.png">
+
+  <h1>Where to next?</h1>
+  <div class="subtitle">Pick your poison. Full content inside.</div>
+
+  <!-- BOTÕES -->
+  <a class="btn primary"
+     href="https://onlyfans.com/tonydorn"
+     target="_blank">
+     Go to OnlyFans
+  </a>
+
+  <a class="btn secondary"
+     href="https://fansly.com/tonydorn"
+     target="_blank">
+     Go to Fansly
+  </a>
+
+  <!-- REDES SOCIAIS -->
+  <div class="socials">
+
+    <a href="https://x.com/tonyxdorn" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png">
+    </a>
+
+    <a href="https://throne.com/tonydorn" target="_blank">
+      <img src="https://cdn-icons-png.freepik.com/512/91/91181.png">
+    </a>
+
+    <a href="https://www.instagram.com/tonyxdorn" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+    </a>
+
+    <a href="https://www.instagram.com/tonyxdorn" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png">
+    </a>
+
+  </div>
+
+</div>
+
+</body>
+</html>
