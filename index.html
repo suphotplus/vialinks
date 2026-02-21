@@ -69,25 +69,30 @@ h1{
   transition:.25s;
 }
 
-/* OnlyFans */
+/* OnlyFans premium glow */
 .primary{
   background: linear-gradient(90deg,#2ea4ff,#1b6cff);
   color:white;
+  box-shadow:0 6px 20px rgba(46,164,255,.35);
 }
 
 .primary:hover{
   transform:translateY(-2px);
+  box-shadow:0 12px 35px rgba(46,164,255,.6);
 }
 
-/* Fansly */
+/* Fansly glass glow */
 .secondary{
   background: rgba(255,255,255,0.08);
-  border:1px solid rgba(255,255,255,0.2);
+  border:1px solid rgba(255,255,255,0.25);
   color:white;
+  box-shadow:0 4px 15px rgba(255,255,255,.08);
 }
 
 .secondary:hover{
   background: rgba(255,255,255,0.18);
+  transform:translateY(-2px);
+  box-shadow:0 8px 25px rgba(255,255,255,.2);
 }
 
 /* Ícones sociais */
@@ -113,12 +118,19 @@ h1{
 .socials a:hover{
   background: rgba(255,255,255,0.2);
   transform:scale(1.08);
+  box-shadow:0 0 15px rgba(255,255,255,.3);
 }
 
-/* Ícones pretos minimalistas */
+/* Ícones brancos */
 .socials img{
   width:18px;
-  filter: brightness(0);
+  filter: brightness(0) invert(1);
+  opacity:.85;
+  transition:.25s;
+}
+
+.socials a:hover img{
+  opacity:1;
 }
 </style>
 </head>
@@ -158,7 +170,7 @@ h1{
       <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png">
     </a>
 
-    <a href="https://www.instagram.com/tonyxdorn" target="_blank">
+    <a href="https://www.instagram.com/tonydorn" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png">
     </a>
 
