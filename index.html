@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Links</title>
+<title>Where to next?</title>
 
 <style>
 *{
@@ -50,22 +50,26 @@ body::before{
 h1{
   font-size:26px;
   margin-bottom:6px;
+  text-shadow:0 0 10px rgba(255,255,255,.18);
 }
 
 .subtitle{
   color:#bbb;
   font-size:14px;
   margin-bottom:22px;
+  text-shadow:0 0 6px rgba(255,255,255,.12);
 }
 
 /* Botões */
 .btn{
   display:block;
   text-decoration:none;
-  padding:16px;
-  border-radius:14px;
+  padding:18px;
+  border-radius:16px;
   margin:12px 0;
-  font-weight:bold;
+  font-weight:600;
+  letter-spacing:.2px;
+  text-shadow:0 0 8px rgba(255,255,255,.15);
   transition:.25s;
 }
 
@@ -73,26 +77,26 @@ h1{
 .primary{
   background: linear-gradient(90deg,#2ea4ff,#1b6cff);
   color:white;
-  box-shadow:0 6px 20px rgba(46,164,255,.35);
+  box-shadow:0 8px 28px rgba(46,164,255,.45);
 }
 
 .primary:hover{
   transform:translateY(-2px);
-  box-shadow:0 12px 35px rgba(46,164,255,.6);
+  box-shadow:0 14px 45px rgba(46,164,255,.75);
 }
 
 /* Fansly glass glow */
 .secondary{
   background: rgba(255,255,255,0.08);
-  border:1px solid rgba(255,255,255,0.25);
+  border:1px solid rgba(255,255,255,0.3);
   color:white;
-  box-shadow:0 4px 15px rgba(255,255,255,.08);
+  box-shadow:0 6px 18px rgba(255,255,255,.12);
 }
 
 .secondary:hover{
   background: rgba(255,255,255,0.18);
   transform:translateY(-2px);
-  box-shadow:0 8px 25px rgba(255,255,255,.2);
+  box-shadow:0 10px 30px rgba(255,255,255,.25);
 }
 
 /* Ícones sociais */
@@ -104,11 +108,11 @@ h1{
 }
 
 .socials a{
-  width:42px;
-  height:42px;
+  width:48px;
+  height:48px;
   border-radius:50%;
   background: rgba(255,255,255,0.08);
-  border:1px solid rgba(255,255,255,0.15);
+  border:1px solid rgba(255,255,255,0.25);
   display:flex;
   align-items:center;
   justify-content:center;
@@ -118,14 +122,14 @@ h1{
 .socials a:hover{
   background: rgba(255,255,255,0.2);
   transform:scale(1.08);
-  box-shadow:0 0 15px rgba(255,255,255,.3);
+  box-shadow:0 0 18px rgba(255,255,255,.35);
 }
 
-/* Ícones brancos */
+/* Ícones brancos com glow */
 .socials img{
-  width:18px;
-  filter: brightness(0) invert(1);
-  opacity:.85;
+  width:19px;
+  filter: brightness(0) invert(1) drop-shadow(0 0 4px rgba(255,255,255,.35));
+  opacity:.9;
   transition:.25s;
 }
 
